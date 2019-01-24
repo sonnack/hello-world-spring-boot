@@ -1,0 +1,23 @@
+*/target/
+*.iml
+syntax: glob
+.metadata/
+*.class
+bin/**
+classes/**
+logs/junit/
+LOG_DIR_IS_UNDEFINED/
+target/
+csba.iws
+.classpath
+.project
+.settings/
+*.ipr
+*.iml
+*.iws
+.idea/
+MANIFEST.MF
+orbtrc*.txt
+scripts/*/run.sh
+scripts/*/*/run.sh
+*.factorypath
