@@ -4,17 +4,17 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                mvn clean compile
+                sh 'mvn clean compile'
             }
         }
         stage('Test') {
             steps {
-                mvn clean verify
+                sh 'mvn clean verify'
             }
         }
         stage('Deploy') {
             steps {
-                mvn spring-boot:run
+                sh 'mvn spring-boot:run'
             }
         }
     }
